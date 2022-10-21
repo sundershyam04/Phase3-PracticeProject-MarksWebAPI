@@ -9,23 +9,24 @@ WebAPI project     : Create a ASP.NET WebAPI project and Create a StudentControl
 			    Controller folder inherited from ApiController 
 			
 	
-DAL 		   : Create a  class library named DAL layer folder for database connectivity. 
-				 Create a ADO.NET file and choose CODEFIRST approach from entity framework option to download EF to the library.
+DAL 		   :      > Create a  class library named DAL layer folder for database connectivity. 
+
+		          > Create a ADO.NET file and choose CODEFIRST approach from entity framework option to download EF to the library.
 				 
-			  > Create a class inheriting from dbcontext which is a database class containing dbset of marks,student and subject 
+			  > Create a class inheriting from dbcontext which is a database class containing dbset of marks,student and subject .
 
 			  > In the constructor initialise and configure db with  
 			 Database.SetInitializer<Marks>(new CreateDatabaseIfNotExists<Marks>());
 
-			  > create subject,mark,student class with necessary key attributes 
+			  > create subject,mark,student class with necessary key attributes.
 
-Procedure          :  	> Add project dependencies and reference of DAL to webapi project 
+Procedure          :  	  > Add project dependencies and reference of DAL to webapi project 
 
-                   	> create api methods to add, update, delete marks and get list of marks 
+                   	  > create api methods to add, update, delete marks and get list of marks 
 				   
-		        > Using POSTMAN tool to send requests to controller of webapi project and tested for the correct functionality of the api methods GET, POST, PUT and DELETE 
+		          > Using POSTMAN tool to send requests to controller of webapi project and tested for the correct functionality of the api methods GET, POST, PUT and DELETE 
 				   
-		        > With the JSON data , we verify the actions performed
+		          > With the JSON data , we verify the actions performed
 				   
 				   
 				   
