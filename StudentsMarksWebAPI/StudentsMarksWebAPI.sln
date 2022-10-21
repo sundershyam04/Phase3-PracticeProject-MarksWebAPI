@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentsMarksWebAPI", "StudentsMarksWebAPI.csproj", "{D2FCC08E-8A55-4E42-B797-61D7E900AAEB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F08961A-3414-4E56-9719-0ED125591497} = {8F08961A-3414-4E56-9719-0ED125591497}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", "{8F08961A-3414-4E56-9719-0ED125591497}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2FCC08E-8A55-4E42-B797-61D7E900AAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FCC08E-8A55-4E42-B797-61D7E900AAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FCC08E-8A55-4E42-B797-61D7E900AAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FCC08E-8A55-4E42-B797-61D7E900AAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F08961A-3414-4E56-9719-0ED125591497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F08961A-3414-4E56-9719-0ED125591497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F08961A-3414-4E56-9719-0ED125591497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F08961A-3414-4E56-9719-0ED125591497}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37A96172-DAF5-4468-BB5A-94AB73A95F25}
+	EndGlobalSection
+EndGlobal
